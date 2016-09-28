@@ -14,6 +14,15 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'devise', '~> 3.4.1'
+# gem devise for user authorization
+
+gem 'haml', '~> 4.0.5'
+# gem haml makes writing .erb better
+
+gem 'simple_form', '~> 3.0.2'
+# gem simple_form used for uploading files
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
